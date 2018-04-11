@@ -9,13 +9,19 @@ public static void main(String[] args) {
 	Person PAJ=new Person();
 	Person NAJ=new Person();
 
-	AJ.setSuperpower("Awesomeness");
+	AJ.setName("Jessica");	
+	AJ.setSuperpower("awesomeness");
 	System.out.println(AJ);
+	
+	PAJ.setName("Jackie");
 	PAJ.setSuperpower("invisibility");
 	System.out.println(PAJ);
-	NAJ.setSuperpower("Speed");
+	
+	NAJ.setName("Jordan");
+	NAJ.setSuperpower("speed");
 	System.out.println(NAJ);
-
+	
+	
 	//7. Override the default toString() method by implementing a toString() method on the Person
 	// class that returns "<name> has mad <superpower> skills". 
 	

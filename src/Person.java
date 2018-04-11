@@ -24,6 +24,8 @@ public class Person {
 		//7. Override the default toString() method by implementing a toString() method on the Person
 		// class that returns "<name> has mad <superpower> skills". 
 public String toString() {
-	System.out.println(Person+"has mad"+superpower+"skills");
+
+	return name+" has mad "+superpower+" skills";
+	
 }
 }
