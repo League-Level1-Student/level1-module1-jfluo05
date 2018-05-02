@@ -71,6 +71,7 @@ public class BinaryConverter implements MouseListener {
 
 		String ascii = convert(textField.getText());
 		label.setText(ascii);
+		frame.pack();
 	}
 
 	@Override
